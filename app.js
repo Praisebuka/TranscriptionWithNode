@@ -1,5 +1,5 @@
 //Making a function 
-function theFirstFunction(name) {
+function theFirstFunction(name) {  
     console.log('Hi, my name is ' + name + " and the details of the file which i'm working on can be found below");
 }
 
@@ -75,3 +75,35 @@ server.listen(3000);
 // const express = require('express');
 
 // console.log(express);
+
+
+
+// const fs = require('fs');
+// const SrtParser = require('srt-parser');
+
+// // Function to read and parse the SRT file
+// function readAndParseSrtFile(filePath) {
+//     const srtContent = fs.readFileSync(filePath, 'utf8');
+
+//     // Parse the SRT content
+//     const parser = new SrtParser();
+//     const subtitles = parser.fromSrt(srtContent);
+
+//     return subtitles;
+// }
+
+// // Example usage
+// const srtFilePath = 'path/to/your/subtitles.srt';
+// const parsedSubtitles = readAndParseSrtFile(srtFilePath);
+
+// // Display parsed subtitles
+// parsedSubtitles.forEach((subtitle) => {
+//     console.log('Subtitle' + ${subtitle.index}:);
+//     console.log(Start Time: ${subtitle.startTime});
+//     console.log(End Time: ${subtitle.endTime});
+//     console.log(Text: ${subtitle.text});
+//     console.log('-----------------------');
+
+// });
+
+
